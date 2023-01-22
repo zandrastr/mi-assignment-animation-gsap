@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.svg-container {
+    width: 100vw;
+    height: 100vh;
+    background: hsla(332, 53%, 82%, 1);
+    background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-content { 
+    /* width: 100%; */
+    height: 50%;
+    margin: auto;
+}
+
+.letter-f {
+    fill: rgb(70, 16, 70);
+}
+
+.letter-r {
+    fill: rgb(123, 17, 123);
+}
+
+.letter-o {
+    fill: rgb(134, 61, 134);
+}
+
+.letter-n1 {
+    fill: rgb(82, 4, 82);
+}
+
+.letter-t {
+    fill: rgb(130, 29, 130);
+}
+
+.letter-e {
+    fill: rgb(93, 36, 93);
+}
+
+.letter-n2 {
+    fill: rgb(147, 64, 147);
+}
+
+.letter-d {
+    fill: rgb(82, 14, 82);
+}
+
+.inside-letter-o { 
+    fill: rgba(255, 255, 255, 0.14);
+}
+
+.inside-letter-e  { 
+    fill: rgba(199, 88, 201, 0.222);
+}
